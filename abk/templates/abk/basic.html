@@ -1,0 +1,308 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from preview.naulak.co/ambassador/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 25 Mar 2020 11:48:26 GMT -->
+<head>
+
+  <!-- Site Title -->
+  <title>{% block title %}{% endblock %}</title>
+
+  <!-- Required Meta Tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <!-- Basic SEO Meta Tags -->
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+
+  <!-- Facebook OpenGraph -->
+  <meta property="og:title" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:url" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <meta property="og:type" content="website">
+
+
+  <!-- Twitter Card Data Here -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:domain" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:image" content="">
+  <meta name="twitter:image:width" content="1300">
+  <meta name="twitter:image:height" content="697">
+  <meta name="twitter:url" content="">
+
+  <!-- Color the status bar on mobile devices -->
+  <meta name="theme-color" content="#6eecec">
+
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="{% static 'asset/images/favicon.png' %}">
+
+  <!-- CSS Global Complusory-->
+  <link rel="stylesheet" href="{% static 'asset/css/bootstrap.min.css' %}">
+
+  <!-- Google Fonts (if required) -->
+  <link href="https://fonts.googleapis.com/css?family=Rubik:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="{% static 'asset/css/ionicons.min.css' %}">
+  <link rel="stylesheet" href="{% static 'asset/css/fontawesome-all.min.css' %}">
+  <link rel="stylesheet" href="{% static 'asset/css/magnific-popup.css' %}">
+  <link rel="stylesheet" href="{% static 'asset/css/owl.carousel.min.css' %}">
+  <link rel="stylesheet" href="{% static 'asset/css/swiper.min.css' %}">
+  <link rel="stylesheet" href="{% static 'asset/css/prism.html' %}">
+
+  <!-- CSS Ambassador Core Styles -->
+  <link rel="stylesheet" href="{% static 'asset/css/styles.css' %}">
+
+</head>
+
+
+<body class="has-sticky-navbar">
+   <!-- Preloader -->
+  <!-- <div class="preloader">
+  <span>
+    <i class="far fa-clock"></i>
+  </span>
+</div> -->
+  <!-- End Preloader -->
+
+  <!-- ========== HEADER ========== -->
+  <!-- Nav -->
+  <nav class="navbar affix navbar-expand-lg fixed-top navbar-light">
+    <div class="container-fluid align-items-center">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="" class="logo-lg" alt="" width="50" height="77">
+        <!-- <img src="{% static 'asset/images/logo-default.svg' %}" class="logo-lg" alt=""> -->
+      </a>
+      <!-- End Logo -->
+
+      <!-- Responsive Menu Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- End Responsive Menu Button -->
+
+      <!-- Navigation -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Links -->
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home"><i class="fas fa-home"></i> Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#features" class="nav-link"><i class="fas fa-info"></i> About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#overview" class="nav-link"><i class="fas fa-laptop-code"></i> Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link"><i class="fas fa-laptop-code"></i> Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://aasifbkhan98.blogspot.com/" class="nav-link"><i class="fas fa-blog"></i> Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#sec-contact" class="nav-link"><i class="fas fa-bell"></i> Enquiry</a>
+          </li>
+        </ul>
+        <!-- End Links -->
+      </div>
+    </div>
+  </nav>
+  <!-- End Nav -->
+  <!-- ========== End Header ========== -->
+  {% block body %}{% endblock %}
+
+   <footer class="section-spacer" id="footer">
+    <div class="container">
+      <div class="row">
+        <!--Footer Widget-->
+        <div class="col-12 col-md-3 mb-5">
+          <!--Logo-->
+          <a href="index-2.html" class="d-block">
+            <img src="{% static 'asset/images/logo-dark.svg' %}" class="logo-sm mb-4" alt="">
+          </a>
+          <!--End Logo-->
+          <!--Contact Info-->
+          <p class="u-text--light">
+            <a href="mail:sales@yourdomain.com" data-toggle="tooltip" title="Feel free to contact us"><i class="fas fa-envelope"></i> abksoftech@gmail.com</a>
+            <br/>
+            <a href="https://www.google.co.in/maps/dir//18.4590258,73.9370031/@18.4589153,73.9369369,20.75z?hl=en" data-toggle="tooltip" title="Get Direction"><i class="fas fa-map-marker-alt"></i> 14/2/1 Behind Venkatesh classics nhavale nagar handewadi road hadapsar pune. 411 028</a>
+            <br/>
+            <a href="#" data-toggle="tooltip" title="Call on"><i class="fas fa-phone-volume"></i> +91 9921-391-609</a>
+          </p>
+          <!--Contact Info-->
+        </div>
+        <!--End Footer Widget-->
+        <div class="col-12 col-md-9">
+          <div class="row no-gutters">
+
+            <!--Footer Widget-->
+            <div class="col-6 col-lg-3 mb-3">
+              <h5>Product</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#">Mac OS & iOS</a>
+                </li>
+                <li>
+                  <a href="#">Android & Chrome OS</a>
+                </li>
+                <li>
+                  <a href="#">Windows</a>
+                </li>
+                <li>
+                  <a href="#">Linux</a>
+                </li>
+                <li>
+                  <a href="#">Web</a>
+                </li>
+              </ul>
+            </div>
+            <!--End Footer Widget-->
+
+            <!--Footer Widget-->
+            <div class="col-6 col-lg-3 mb-3">
+              <h5>Platforms</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#">Mac OS & iOS</a>
+                </li>
+                <li>
+                  <a href="#">Android & Chrome OS</a>
+                </li>
+                <li>
+                  <a href="#">Windows</a>
+                </li>
+                <li>
+                  <a href="#">Linux</a>
+                </li>
+                <li>
+                  <a href="#">Web</a>
+                </li>
+              </ul>
+            </div>
+            <!--End Footer Widget-->
+
+            <!--Footer Widget-->
+            <div class="col-6 col-lg-3 mb-3">
+              <h5>Community</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#">Forum</a>
+                </li>
+                <li>
+                  <a href="#">Knowledge</a>
+                </li>
+                <li>
+                  <a href="#">FAQ</a>
+                </li>
+                <li>
+                  <a href="#">Developers</a>
+                </li>
+              </ul>
+            </div>
+            <!--End Footer Widget-->
+
+            <!--Footer Widget-->
+            <div class="col-6 col-lg-3 mb-3">
+              <h5>Company</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+                <li>
+                  <a href="#">Press</a>
+                </li>
+                <li>
+                  <a href="#">Investor Relations</a>
+                </li>
+                <li>
+                  <a href="#">Careers</a>
+                </li>
+              </ul>
+            </div>
+            <!--End Footer Widget-->
+
+          </div>
+          <hr>
+          <div class="d-flex justify-content-between">
+            <!-- Copyright -->
+            <p>&copy; 2020 by abksoftech.</p>
+            <!-- end Copyright -->
+
+
+            <!-- Social Networks -->
+            <ul class="list-inline social-links">
+              <li class="list-inline-item">
+                <a href="https://api.whatsapp.com/send?phone=+919921391609&text=*Aasif*%0AHello%20tell%20me%20your%20requirement%0A%0A">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/abksoftech/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+            <!-- end Social Networks -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== END FOOTER ========== -->
+
+
+  <!-- JS Global Compulsory -->
+  <script src="{% static 'asset/js/vendors/jquery.min.js' %}"></script>
+  <script src="{% static 'asset/js/vendors/bootstrap.bundle.min.js' %}"></script>
+
+  <!-- JS Implementing Plugins-->
+  <script type="text/javascript" src="{% static 'asset/js/vendors/jquery.magnific-popup.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'asset/js/vendors/owl.carousel.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'asset/js/vendors/jquery.easing.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'asset/js/vendors/affix.js' %}"></script>
+  <script src="{% static 'asset/js/vendors/swiper.min.js' %}"></script>
+
+  <!-- JS Ambassador -->
+  <script type="text/javascript" src="{% static 'asset/js/custom.js' %}"></script>
+
+</body>
+
+
+<!-- Mirrored from preview.naulak.co/ambassador/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 25 Mar 2020 11:50:00 GMT -->
+</html>
